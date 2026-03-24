@@ -1,0 +1,79 @@
+{
+  "name": "KaZAPP — Gérez vos abonnements",
+  "short_name": "KaZAPP",
+  "description": "Centralisez et maîtrisez tous vos abonnements en un seul endroit. Paiement en 1 clic, rapports intelligents, conforme RGPD.",
+  "start_url": "/app/shop",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#4f46e5",
+  "background_color": "#0d1117",
+  "lang": "fr-BE",
+  "dir": "ltr",
+  "categories": ["finance", "productivity", "utilities"],
+  "screenshots": [
+    {
+      "src": "/screenshots/shop.png",
+      "type": "image/png",
+      "sizes": "1280x720",
+      "form_factor": "wide",
+      "label": "Boutique KaZAPP"
+    },
+    {
+      "src": "/screenshots/vault.png",
+      "type": "image/png",
+      "sizes": "390x844",
+      "form_factor": "narrow",
+      "label": "Mes abonnements"
+    }
+  ],
+  "icons": [
+    { "src": "/icons/icon-72x72.png",   "sizes": "72x72",   "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-96x96.png",   "sizes": "96x96",   "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-128x128.png", "sizes": "128x128", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-144x144.png", "sizes": "144x144", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-152x152.png", "sizes": "152x152", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icons/icon-384x384.png", "sizes": "384x384", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Boutique",
+      "short_name": "Shop",
+      "description": "Parcourir le catalogue de services",
+      "url": "/app/shop",
+      "icons": [{ "src": "/icons/icon-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Mes abonnements",
+      "short_name": "Vault",
+      "description": "Voir tous mes abonnements",
+      "url": "/app/vault",
+      "icons": [{ "src": "/icons/icon-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Portefeuille",
+      "short_name": "Wallet",
+      "description": "Gérer mes paiements",
+      "url": "/app/wallet",
+      "icons": [{ "src": "/icons/icon-96x96.png", "sizes": "96x96" }]
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=be.kazapp.app",
+      "id": "be.kazapp.app"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/app/kazapp/id0000000000"
+    },
+    {
+      "platform": "windows",
+      "url": "https://apps.microsoft.com/store/detail/kazapp/XXXX"
+    }
+  ],
+  "prefer_related_applications": false
+}
