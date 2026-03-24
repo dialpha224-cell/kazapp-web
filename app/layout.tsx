@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from 'next'
 import { Outfit, DM_Sans, Syne } from 'next/font/google'
-import './globals.css'
 
 // ── Fonts ──────────────────────────────────────────────────────
 const outfit = Outfit({
