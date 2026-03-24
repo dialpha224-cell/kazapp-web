@@ -101,10 +101,10 @@ export default function MigrationPage() {
             ))}
           </div>
           <div style={{ display:'flex', gap:12 }}>
-            <button onClick={() => setStep(0)} style={{{ ...S.btn, background:'rgba(255,255,255,.1)', color:'#cbd5e1', flex:1 }}}>
+            <button onClick={() => setStep(0)} style={{ ...S.btn, background:'rgba(255,255,255,.1)', color:'#cbd5e1', flex:1 }}>
               Retour
             </button>
-            <button onClick={() => setStep(2)} style={{{ ...S.btn, background:'#4f46e5', color:'#fff', flex:1 }}}>
+            <button onClick={() => setStep(2)} style={{ ...S.btn, background:'#4f46e5', color:'#fff', flex:1 }}>
               Suivant
             </button>
           </div>
@@ -121,10 +121,10 @@ export default function MigrationPage() {
             <p style={{ marginTop:12, color:'#94a3b8' }}>Nos experts vont préparer votre dossier de migration.</p>
           </div>
           <div style={{ display:'flex', gap:12 }}>
-            <button onClick={() => setStep(1)} style={{{ ...S.btn, background:'rgba(255,255,255,.1)', color:'#cbd5e1', flex:1 }}}>
+            <button onClick={() => setStep(1)} style={{ ...S.btn, background:'rgba(255,255,255,.1)', color:'#cbd5e1', flex:1 }}>
               Retour
             </button>
-            <button onClick={() => setStep(3)} style={{{ ...S.btn, background:'#22c55e', color:'#fff', flex:1 }}}>
+            <button onClick={() => setStep(3)} style={{ ...S.btn, background:'#22c55e', color:'#fff', flex:1 }}>
               Commencer migration
             </button>
           </div>
@@ -144,7 +144,7 @@ export default function MigrationPage() {
               <li>Suivi personnalisé jusqu'à la fin</li>
             </ul>
           </div>
-          <button onClick={() => { setStep(0); setOperator(''); setServices([]) }} style={{{ ...S.btn, background:'#4f46e5', color:'#fff', width:'100%' }}}>
+          <button onClick={() => { setStep(0); setOperator(''); setServices([]) }} style={{ ...S.btn, background:'#4f46e5', color:'#fff', width:'100%' }}>
             Nouvelle migration
           </button>
         </div>
