@@ -133,7 +133,7 @@ export default function LandingPage() {
           {/* CTAs */}
           <div style={{ display:'flex', gap:14, justifyContent:'center', flexWrap:'wrap', marginBottom:48 }}>
             <Link href="/register" style={{
-              display:hinline-flex', alignItems:'center', gap:8,
+              display:'inline-flex', alignItems:'center', gap:8,
               padding:'14px 32px', background:'linear-gradient(135deg,#4f46e5,#3730a3)', color:'#fff',
               borderRadius:12, fontSize:15, fontWeight:800, textDecoration:'none',
               boxShadow:'0 8px 24px rgba(79,70,229,.4)', transition:'transform .15s',
@@ -241,7 +241,7 @@ export default function LandingPage() {
                 background:'#fff', border:`1.5px solid ${i===1 ? pack.color : '#e1e4e8'}`,
                 borderRadius:18, padding:'28px 24px', position:'relative', overflow:'hidden',
                 boxShadow: i===1 ? `0 8px 32px ${pack.color}25` : '0 2px 8px rgba(0,0,0,.06)',
-                transition:'transform .2s',
+                transition:'all .2s',
               }}
                 onMouseOver={e => { e.currentTarget.style.borderColor=pack.color; e.currentTarget.style.transform='translateY(-4px)' }}
                 onMouseOut={e => { e.currentTarget.style.borderColor=i===1 ? pack.color : '#e1e4e8'; e.currentTarget.style.transform='translateY(0)' }}
