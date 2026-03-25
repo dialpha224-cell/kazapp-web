@@ -133,8 +133,8 @@ export default function LandingPage() {
           {/* CTAs */}
           <div style={{ display:'flex', gap:14, justifyContent:'center', flexWrap:'wrap', marginBottom:48 }}>
             <Link href="/register" style={{
-              display:'inline-flex', alignItems:'center', gap:8,
-              padding:'14px 32px', background:'linear-gradient(135deg,#4f46e5,#3730a3)', color:'~fff',
+              display:hinline-flex', alignItems:'center', gap:8,
+              padding:'14px 32px', background:'linear-gradient(135deg,#4f46e5,#3730a3)', color:'#fff',
               borderRadius:12, fontSize:15, fontWeight:800, textDecoration:'none',
               boxShadow:'0 8px 24px rgba(79,70,229,.4)', transition:'transform .15s',
             }}
@@ -195,7 +195,7 @@ export default function LandingPage() {
               </div>
             ))}
           </div>
-  2     </div>
+        </div>
       </section>
 
       {/* ── COMMENT ÇA MARCHE ── */}
@@ -241,7 +241,7 @@ export default function LandingPage() {
                 background:'#fff', border:`1.5px solid ${i===1 ? pack.color : '#e1e4e8'}`,
                 borderRadius:18, padding:'28px 24px', position:'relative', overflow:'hidden',
                 boxShadow: i===1 ? `0 8px 32px ${pack.color}25` : '0 2px 8px rgba(0,0,0,.06)',
-                transition:'all .2s',
+                transition:'transform .2s',
               }}
                 onMouseOver={e => { e.currentTarget.style.borderColor=pack.color; e.currentTarget.style.transform='translateY(-4px)' }}
                 onMouseOut={e => { e.currentTarget.style.borderColor=i===1 ? pack.color : '#e1e4e8'; e.currentTarget.style.transform='translateY(0)' }}
@@ -253,7 +253,7 @@ export default function LandingPage() {
                 <h3 style={{ margin:'0 0 6px', fontSize:20, fontWeight:900, color:'#0d1117' }}>{pack.name}</h3>
                 <p style={{ margin:'0 0 16px', fontSize:13, color:'#57606a' }}>{pack.desc}</p>
                 <div style={{ marginBottom:18 }}>
-        2         <span style={{ fontSize:36, fontWeight:900, color:pack.color }}>{pack.price.toFixed(2)} €</span>
+                  <span style={{ fontSize:36, fontWeight:900, color:pack.color }}>{pack.price.toFixed(2)} €</span>
                   <span style={{ fontSize:13, color:'#8b949e' }}>/mois</span>
                 </div>
                 <div style={{ marginBottom:20 }}>
@@ -326,7 +326,7 @@ export default function LandingPage() {
                   <div style={{ padding:'0 20px 16px', fontSize:13, color:'#57606a', lineHeight:1.7, borderTop:'1px solid #f0f0f0' }}>
                     {item.a}
                   </div>
-     0          )}
+                )}
               </div>
             ))}
           </div>
@@ -337,11 +337,11 @@ export default function LandingPage() {
       <section style={{ background:'linear-gradient(135deg,#1e1b4b 0%,#312e81 60%,#4f46e5 100%)', padding:'80px 32px', textAlign:'center', position:'relative', overflow:'hidden' }}>
         <div style={{ position:'absolute', inset:0, backgroundImage:'radial-gradient(rgba(255,255,255,.04) 1.5px,transparent 1.5px)', backgroundSize:'22px 22px', pointerEvents:'none' }}/>
         <div style={{ position:'relative', zIndex:1, maxWidth:600, margin:'0 auto' }}>
-    2     <h2 style={{ fontSize:42, fontWeight:900, color:'#fff', margin:'0 0 16px', letterSpacing:-1.5, lineHeight:1.1 }}>
+          <h2 style={{ fontSize:42, fontWeight:900, color:'#fff', margin:'0 0 16px', letterSpacing:-1.5, lineHeight:1.1 }}>
             Prêt à simplifier<br/>votre vie numérique ?
           </h2>
           <p style={{ fontSize:16, color:'rgba(255,255,255,.6)', margin:'0 0 36px', lineHeight:1.7 }}>
-  2         Rejoignez des milliers d'utilisateurs KaZAPP en Belgique et commencez à économiser dès aujourd'hui.
+            Rejoignez des milliers d'utilisateurs KaZAPP en Belgique et commencez à économiser dès aujourd'hui.
           </p>
           <div style={{ display:'flex', gap:14, justifyContent:'center', flexWrap:'wrap' }}>
             <Link href="/register" style={{ display:'inline-flex', alignItems:'center', gap:8, padding:'14px 32px', background:'#fff', color:'#4f46e5', borderRadius:12, fontSize:15, fontWeight:800, textDecoration:'none', boxShadow:'0 8px 24px rgba(0,0,0,.2)' }}>
@@ -363,7 +363,7 @@ export default function LandingPage() {
               <svg width="24" height="24" viewBox="0 0 32 32" fill="none">
                 <rect width="32" height="32" rx="8" fill="#4f46e5"/>
                 <path d="M8 22L14 10L20 16L24 10" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-           2    <circle cx="24" cy="10" r="2.5" fill="white"/>
+                <circle cx="24" cy="10" r="2.5" fill="white"/>
               </svg>
               <span style={{ fontSize:16, fontWeight:900, color:'#fff' }}>KaZAPP</span>
             </div>
