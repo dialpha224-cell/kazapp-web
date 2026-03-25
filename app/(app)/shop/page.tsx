@@ -148,7 +148,7 @@ export default function ShopPage() {
 
       <div style={{ display: 'flex', gap: 20, alignItems: 'flex-start' }}>
 
-        {/* ── CONTENT PRINCIPAL ── */}
+        {/* ── CONTENU PRINCIPAL ── */}
         <div style={{ flex: 1, minWidth: 0 }}>
 
           {/* Onglets */}
@@ -199,7 +199,7 @@ export default function ShopPage() {
                 <div style={{ textAlign: 'center', padding: 40, color: '#8b949e' }}>Chargement...</div>
               ) : filtered.length === 0 ? (
                 <div style={{
-  2               background: '#fff', border: '1px solid #e1e4e8', borderRadius: 14,
+                  background: '#fff', border: '1px solid #e1e4e8', borderRadius: 14,
                   padding: 40, textAlign: 'center', color: '#8b949e',
                 }}>
                   <div style={{ fontSize: 32, marginBottom: 12 }}>🗂️</div>
